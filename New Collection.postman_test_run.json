@@ -1,0 +1,176 @@
+{
+	"id": "b9ad0607-35e7-45e9-8b68-1c8a8770b288",
+	"name": "New Collection",
+	"timestamp": "2023-03-07T06:37:17.529Z",
+	"collection_id": "25164625-1626636d-4a36-4cad-a015-ae77937fb72a",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-03-07T06:37:15.392Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "92de7089-3a47-42b4-bd10-e19c3f6df4a6",
+			"name": "EP_1",
+			"url": "http://162.55.220.72:5005/get_method?name=valentina &age=40",
+			"time": 175,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				175
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e00884e2-b5f3-4d2a-9680-cf32c02bf4b2",
+			"name": "ЕP_2",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 173,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				173
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7e21844e-7abd-4774-91ab-c3529919a110",
+			"name": "EP_3",
+			"url": "http://162.55.220.72:5005/object_info_1?name=valentina&age=40&weight=70",
+			"time": 161,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				161
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "92cfcf5c-55d0-4f39-b6f9-c1145e3d6b34",
+			"name": "ЕP_4",
+			"url": "http://162.55.220.72:5005/object_info_2?name=valentina&age=40&salary=1500",
+			"time": 160,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				160
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "115a9749-7b8d-449c-9cb3-2300abdb2232",
+			"name": "EP_6",
+			"url": "http://162.55.220.72:5005/object_info_4?name=valentina&age=40&salary=1300",
+			"time": 167,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				167
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a971b957-8a76-4142-9c78-e37e2ec30378",
+			"name": "EP_7",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 170,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				170
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "47dab0a6-169d-45c6-b199-4e9f05774475",
+			"name": "EP_5",
+			"url": "http://162.55.220.72:5005/object_info_3?name=valentina&age=40&salary=1500",
+			"time": 165,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				165
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1171,
+	"collection": {
+		"requests": [
+			{
+				"id": "92de7089-3a47-42b4-bd10-e19c3f6df4a6",
+				"method": "GET"
+			},
+			{
+				"id": "e00884e2-b5f3-4d2a-9680-cf32c02bf4b2",
+				"method": "POST"
+			},
+			{
+				"id": "7e21844e-7abd-4774-91ab-c3529919a110",
+				"method": "GET"
+			},
+			{
+				"id": "92cfcf5c-55d0-4f39-b6f9-c1145e3d6b34",
+				"method": "GET"
+			},
+			{
+				"id": "115a9749-7b8d-449c-9cb3-2300abdb2232",
+				"method": "GET"
+			},
+			{
+				"id": "a971b957-8a76-4142-9c78-e37e2ec30378",
+				"method": "POST"
+			},
+			{
+				"id": "47dab0a6-169d-45c6-b199-4e9f05774475",
+				"method": "GET"
+			}
+		]
+	}
+}
