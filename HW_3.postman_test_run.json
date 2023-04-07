@@ -1,0 +1,311 @@
+{
+	"id": "d53a54ca-9832-4c6a-bdbe-db9e555548de",
+	"name": "HW_3",
+	"timestamp": "2023-04-07T15:49:15.370Z",
+	"collection_id": "25164625-de229331-4f49-448d-8c61-fefc630944bd",
+	"folder_id": 0,
+	"environment_id": "25164625-4a4236af-2989-4c02-a9d3-52e44969646b",
+	"totalPass": 20,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-04-07T15:49:12.209Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e5791eea-3142-4a1a-9719-b9b61d215f8f",
+			"name": "login",
+			"url": "http://162.55.220.72:5005/login",
+			"time": 168,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				168
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "161e711e-cc2a-4847-9f3a-20a8fd205336",
+			"name": "user_info",
+			"url": "http://162.55.220.72:5005/user_info",
+			"time": 150,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"Chech salary * 2": true,
+				"Check salary * 2.9": true,
+				"Check salary * 4": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Chech salary * 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary * 2.9": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary * 4": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				150
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"Chech salary * 2": true,
+					"Check salary * 2.9": true,
+					"Check salary * 4": true
+				}
+			]
+		},
+		{
+			"id": "ba637814-48de-435c-8c47-de4fb96a439b",
+			"name": "new_data",
+			"url": "http://162.55.220.72:5005/new_data",
+			"time": 165,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"Chech salary *2": true,
+				"Check salary_х3": true,
+				"Salary[2]>salary[1]&&salary[0]": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Chech salary *2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary_х3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Salary[2]>salary[1]&&salary[0]": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				165
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"Chech salary *2": true,
+					"Check salary_х3": true,
+					"Salary[2]>salary[1]&&salary[0]": true
+				}
+			]
+		},
+		{
+			"id": "eb117019-b844-4410-b7b0-77289840a47f",
+			"name": "test_pet_info",
+			"url": "http://162.55.220.72:5005/test_pet_info",
+			"time": 151,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"schema is valid": true,
+				"Check weight for daily food": true,
+				"Check weight for daily sleep": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check weight for daily food": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check weight for daily sleep": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				151
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"schema is valid": true,
+					"Check weight for daily food": true,
+					"Check weight for daily sleep": true
+				}
+			]
+		},
+		{
+			"id": "67106ef8-8394-4271-90a9-a46e9a38ea87",
+			"name": "get_test_user",
+			"url": "http://162.55.220.72:5005/get_test_user",
+			"time": 151,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"Check name ": true,
+				"check age": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check name ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check age": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				151
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"Check name ": true,
+					"check age": true
+				}
+			]
+		},
+		{
+			"id": "ba3eb02e-54a5-44b5-bdc7-48b534fa847d",
+			"name": "currency",
+			"url": "http://54.157.99.22:80/currency",
+			"time": 311,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				311
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "472162bf-aa4e-460f-9fa3-a788e4ff50ff",
+			"name": "curr_byn",
+			"url": "http://54.157.99.22:80/curr_byn",
+			"time": 160,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				160
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1256,
+	"collection": {
+		"requests": [
+			{
+				"id": "e5791eea-3142-4a1a-9719-b9b61d215f8f",
+				"method": "POST"
+			},
+			{
+				"id": "161e711e-cc2a-4847-9f3a-20a8fd205336",
+				"method": "POST"
+			},
+			{
+				"id": "ba637814-48de-435c-8c47-de4fb96a439b",
+				"method": "POST"
+			},
+			{
+				"id": "eb117019-b844-4410-b7b0-77289840a47f",
+				"method": "POST"
+			},
+			{
+				"id": "67106ef8-8394-4271-90a9-a46e9a38ea87",
+				"method": "POST"
+			},
+			{
+				"id": "ba3eb02e-54a5-44b5-bdc7-48b534fa847d",
+				"method": "POST"
+			},
+			{
+				"id": "472162bf-aa4e-460f-9fa3-a788e4ff50ff",
+				"method": "POST"
+			}
+		]
+	}
+}
