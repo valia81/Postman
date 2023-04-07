@@ -1,0 +1,407 @@
+{
+	"id": "5a9b2445-b1a1-45b7-b640-6a6a1a65ff63",
+	"name": "HW_2",
+	"timestamp": "2023-04-07T15:15:03.904Z",
+	"collection_id": "25164625-9dc5b327-f248-4adc-b49e-b2e93e1574d7",
+	"folder_id": 0,
+	"environment_id": "25164625-4a4236af-2989-4c02-a9d3-52e44969646b",
+	"totalPass": 37,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-04-07T15:15:01.091Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "89206f08-1c76-416b-b444-2488c9ea8ae3",
+			"name": "first",
+			"url": "162.55.220.72:5005/first",
+			"time": 185,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				185
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c430fe12-ba2f-4939-b3f3-a5869187a881",
+			"name": "user_info_3",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 153,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Your test name": true,
+				"Status code is 200": true,
+				"req_resp_BODY_check": true,
+				"Req_resp_NAME_check": true,
+				"req_resp_AGE_check": true,
+				"Req_resp_SALARY_check": true
+			},
+			"testPassFailCounts": {
+				"Your test name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"req_resp_BODY_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Req_resp_NAME_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"req_resp_AGE_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Req_resp_SALARY_check": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				153
+			],
+			"allTests": [
+				{
+					"Your test name": true,
+					"Status code is 200": true,
+					"req_resp_BODY_check": true,
+					"Req_resp_NAME_check": true,
+					"req_resp_AGE_check": true,
+					"Req_resp_SALARY_check": true
+				}
+			]
+		},
+		{
+			"id": "7b4f21fa-adc8-4af3-8d76-9cb8ecd13784",
+			"name": "object_info_3",
+			"url": "http://162.55.220.72:5005/object_info_3?name=valentina&age=40&salary=500",
+			"time": 159,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Your test name": true,
+				"Req_name_check": true,
+				"Req_age_check": true,
+				"Req_salary_check": true,
+				"Dogname_check": true,
+				"Dogage_check": true,
+				"Dog_name_check": true,
+				"Dog_age_check": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Req_name_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Req_age_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Req_salary_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Dogname_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Dogage_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Dog_name_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Dog_age_check": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				159
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Your test name": true,
+					"Req_name_check": true,
+					"Req_age_check": true,
+					"Req_salary_check": true,
+					"Dogname_check": true,
+					"Dogage_check": true,
+					"Dog_name_check": true,
+					"Dog_age_check": true
+				}
+			]
+		},
+		{
+			"id": "fe5ba3bf-42cd-4c7f-b024-25dd66dad467",
+			"name": "login",
+			"url": "162.55.220.72:5005/login",
+			"time": 150,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Your test name": true
+			},
+			"testPassFailCounts": {
+				"Your test name": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				150
+			],
+			"allTests": [
+				{
+					"Your test name": true
+				}
+			]
+		},
+		{
+			"id": "edbd2fea-038b-4798-a436-1a350aeddd7b",
+			"name": "new_data",
+			"url": "http://162.55.220.72:5005/new_data?user_name=anna",
+			"time": 171,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				171
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "388b3d28-4f8f-4fdb-b913-3607f3120102",
+			"name": "object_info_4",
+			"url": "http://162.55.220.72:5005/object_info_4?name=valentina&age=35&salary=700",
+			"time": 155,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Your test name": true,
+				"Req_name_check ": true,
+				"Req_age_check ": true,
+				"Req_salary_1_check ": true,
+				"Req_salary_2_check ": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Req_name_check ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Req_age_check ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Req_salary_1_check ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Req_salary_2_check ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				155
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Your test name": true,
+					"Req_name_check ": true,
+					"Req_age_check ": true,
+					"Req_salary_1_check ": true,
+					"Req_salary_2_check ": true
+				}
+			]
+		},
+		{
+			"id": "6f436046-5ce8-44e9-be01-0451c0c5c603",
+			"name": "user_info_2",
+			"url": "162.55.220.72:5005/user_info_2",
+			"time": 163,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"start_qa_salary": true,
+				"resp_have_qa_salary_after_6_months": true,
+				"resp_have_qa_salary_after_12_months": true,
+				"resp_have_qa_salary_after_1.5_year": true,
+				"resp_have_qa_salary_after_3.5_years": true,
+				"person": true,
+				"resp_qa_salary_after_6_months= req_salary*2": true,
+				"resp_qa_salary_after_12_months=req_salary*2.7": true,
+				"resp_qa_salary_after_1.5_year": true,
+				"resp_qa_salary_after_3.5_years": true,
+				"pers_u_name[1]=req_salary": true,
+				"pers_u_age=req_age": true,
+				"resp_u_salary_5_years=req_salary*4.2": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"start_qa_salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"resp_have_qa_salary_after_6_months": {
+					"pass": 1,
+					"fail": 0
+				},
+				"resp_have_qa_salary_after_12_months": {
+					"pass": 1,
+					"fail": 0
+				},
+				"resp_have_qa_salary_after_1.5_year": {
+					"pass": 1,
+					"fail": 0
+				},
+				"resp_have_qa_salary_after_3.5_years": {
+					"pass": 1,
+					"fail": 0
+				},
+				"person": {
+					"pass": 1,
+					"fail": 0
+				},
+				"resp_qa_salary_after_6_months= req_salary*2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"resp_qa_salary_after_12_months=req_salary*2.7": {
+					"pass": 1,
+					"fail": 0
+				},
+				"resp_qa_salary_after_1.5_year": {
+					"pass": 1,
+					"fail": 0
+				},
+				"resp_qa_salary_after_3.5_years": {
+					"pass": 1,
+					"fail": 0
+				},
+				"pers_u_name[1]=req_salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"pers_u_age=req_age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"resp_u_salary_5_years=req_salary*4.2": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				163
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"start_qa_salary": true,
+					"resp_have_qa_salary_after_6_months": true,
+					"resp_have_qa_salary_after_12_months": true,
+					"resp_have_qa_salary_after_1.5_year": true,
+					"resp_have_qa_salary_after_3.5_years": true,
+					"person": true,
+					"resp_qa_salary_after_6_months= req_salary*2": true,
+					"resp_qa_salary_after_12_months=req_salary*2.7": true,
+					"resp_qa_salary_after_1.5_year": true,
+					"resp_qa_salary_after_3.5_years": true,
+					"pers_u_name[1]=req_salary": true,
+					"pers_u_age=req_age": true,
+					"resp_u_salary_5_years=req_salary*4.2": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1136,
+	"collection": {
+		"requests": [
+			{
+				"id": "89206f08-1c76-416b-b444-2488c9ea8ae3",
+				"method": "GET"
+			},
+			{
+				"id": "c430fe12-ba2f-4939-b3f3-a5869187a881",
+				"method": "POST"
+			},
+			{
+				"id": "7b4f21fa-adc8-4af3-8d76-9cb8ecd13784",
+				"method": "GET"
+			},
+			{
+				"id": "fe5ba3bf-42cd-4c7f-b024-25dd66dad467",
+				"method": "POST"
+			},
+			{
+				"id": "edbd2fea-038b-4798-a436-1a350aeddd7b",
+				"method": "POST"
+			},
+			{
+				"id": "388b3d28-4f8f-4fdb-b913-3607f3120102",
+				"method": "GET"
+			},
+			{
+				"id": "6f436046-5ce8-44e9-be01-0451c0c5c603",
+				"method": "POST"
+			}
+		]
+	}
+}
